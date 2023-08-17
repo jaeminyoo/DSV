@@ -42,3 +42,18 @@ python train.py \
 
 Run `eval.py` to select the model based on the values of validation losses. It
 also generates useful figures on embeddings and anomaly scores.
+
+## Reference
+
+Please cite our paper if you utilize our code in your research:
+
+```
+@misc{yoo2023dsv,
+      title={DSV: An Alignment Validation Loss for Self-supervised Outlier Model Selection}, 
+      author={Jaemin Yoo and Yue Zhao and Lingxiao Zhao and Leman Akoglu},
+      year={2023},
+      eprint={2307.06534},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
